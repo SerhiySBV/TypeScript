@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+  "target" : "ES6",
+  "outFile": "app.js",
+  },
+  "files": [
+ "app.ts"
+  ]
+}

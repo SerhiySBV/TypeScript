@@ -9,3 +9,17 @@ function add(num1: number, num2: number) {
 button.addEventListener("click", function() {
   console.log(add(+input1.value, +input2.value));
 });
+
+let age: number;
+let firstName: string;
+let toggle: boolean;
+let empty:null;
+let notInitialize:undefined;
+let callback = (a: number):number => {return 100 + a} ;
+
+ age = 50;
+ firstName = 'Max';
+ toggle = true;
+ empty = null;
+ notInitialize = undefined;
+ callback = (a) => { return 100 + a };
